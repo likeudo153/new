@@ -28,8 +28,8 @@ jobs:
       # Runs a single command using the runners shell
       - name: Getting VSCode
         run: curl -fsSL https://code-server.dev/install.sh | sh
-      - name: Starting VSCode
-        run: code-server
+      #- name: Starting VSCode
+      #  run: code-server
       - name: change directory VSCode
         run: cd ~/.config/code-server
       - name: Move original config VSCode
